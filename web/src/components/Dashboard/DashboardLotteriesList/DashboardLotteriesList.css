@@ -1,0 +1,94 @@
+/** /DashboardLotteriesList **/
+.lottery-DashboardLotteriesList{
+	font-family: roboto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.lottery-DashboardLotteriesList-bt-search{
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 9px 20px 9px 20px;
+	cursor: pointer;
+	display: inline-block;
+    text-align: center;
+}
+
+.lottery-DashboardLotteriesList-title{
+	padding-top: 15px;
+    padding-bottom: 20px;
+	color: #666;
+}
+
+/** /filters **/
+.lottery-DashboardLotteriesList-filters{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #666;
+}
+
+.lottery-DashboardLotteriesList-filters label{
+	margin-bottom: 0;
+}
+
+.lottery-DashboardLotteriesList-filters input{
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	bottom: 1px;
+}
+/** ./filters **/
+
+.lottery-DashboardLotteriesList-menu{
+	text-align: right;
+}
+
+.lottery-DashboardLotteriesList-menu a{
+	color: #33b5f7;
+}
+
+.lottery-DashboardLotteriesList-deleted{
+	text-decoration: line-through;
+}
+
+.lottery-DashboardLotteriesList-box{
+	padding-bottom: 15px;
+}
+
+/** /list **/
+.lottery-DashboardLotteriesList-list{
+	color: #666;
+	font-weight: 300;
+}
+
+.lottery-DashboardLotteriesList-list-title{
+	color: #666;
+}
+
+.lottery-DashboardLotteriesList-list-box{
+	padding-top: 30px;
+}
+
+.lottery-DashboardLotteriesList-list-item{
+	display: flex;
+	align-items: center;
+}
+
+.lottery-DashboardLotteriesList-list i{
+	font-size: 20px;
+	color: #666;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.lottery-DashboardLotteriesList-list-title .row div, .lottery-DashboardLotteriesList-list .row div{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.lottery-DashboardLotteriesList-list .row:nth-child(odd){
+	background-color: #F8F8F8;
+}
+/** ./list **/
+
+/** ./DashboardLotteriesList **/

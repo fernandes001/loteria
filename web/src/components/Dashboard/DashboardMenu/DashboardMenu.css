@@ -1,0 +1,31 @@
+/** /DashboardMenu **/
+.lottery-DashboardMenu{
+	background-color: #FFF;
+	font-family: roboto;
+	box-shadow: 0px 4px 2px -2px #ccc;
+	padding-top: 15px;
+	height: 62px;
+}
+
+.lottery-DashboardMenu ul{
+	padding-inline-start: 0;
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.lottery-DashboardMenu-checked{
+	border-bottom: 2px solid #F7931A;
+}
+
+.lottery-DashboardMenu ul li{
+	display: inline-block;
+	padding: 10px 0px;
+	margin-right: 30px;
+}
+
+.lottery-DashboardMenu ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #666;
+}
+/** ./DashboardMenu **/

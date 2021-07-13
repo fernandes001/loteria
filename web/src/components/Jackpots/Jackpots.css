@@ -1,0 +1,58 @@
+/** /Jackpots **/
+.lottery-Jackpots{
+	background-color: #FFF;
+	font-family: roboto;
+}
+
+.lottery-Jackpots-box{
+	height: 300px
+}
+
+.lottery-Jackpots-sub-box{
+    border: 1px solid #CCC;
+    position: relative;
+    margin: 0 auto;
+    height: 80%;
+    border-bottom: 2px solid #33b5f7;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.lottery-Jackpots-bt{
+	position: absolute;
+    top: 91%;
+    left: 33%;
+}
+
+.lottery-Jackpots-price{
+	color: #ea2e49;
+	text-align: center;
+	margin-top: 15px;
+	font-weight: 500;
+	font-size: 22px;
+}
+
+.lottery-Jackpots-lottery{
+	color: #666;
+	font-size: 16px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.lottery-Jackpots-lottery-draw{
+	color: #666;
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.lottery-Jackpots-bt-rounded{
+	font-size: 13px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 12px 15px 12px 15px;
+	cursor: pointer;	
+	display: inline-block;
+    text-align: center;
+}
+/** ./Jackpots **/

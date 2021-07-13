@@ -1,0 +1,99 @@
+/** /HomeLatestResult **/
+.lottery-HomeLatestResult{
+	background-color: #FFF;
+	font-family: roboto;
+    height: 754px;
+}
+
+.lottery-HomeLatestResult-title{
+	margin-top: 50px;
+	font-weight: 700;
+	color: #666;
+	margin-bottom: 15px;
+}
+
+.lottery-HomeLatestResult-description{
+    color: #999;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.lottery-HomeLatestResult-box-group{
+	margin-top: 30px;
+}
+
+.lottery-HomeLatestResult-sub-title{
+	padding: 25px 15px 0 15px;
+	color: #666;
+}
+
+.lottery-HomeLatestResult-trophy{
+    background-image: url(./images/trophy.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 302px;
+}
+
+.lottery-HomeLatestResult-circle{
+	cursor: pointer;
+	border-radius: 25px;
+    height: 40px;
+    width: 40px;
+    margin-right: 14px;
+    transition: color 0.3s linear, background-color 0.3s linear;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+}
+
+.lottery-HomeLatestResult-circle:hover{
+	background-color: #33b5f7;
+	color: #FFF;
+	border: 0;
+}
+
+.lottery-HomeLatestResult-box-group table{
+	width: 100%;
+	font-size: 14px;
+}
+
+.lottery-HomeLatestResult-box-group table th{
+	padding: 5px 15px;
+	font-weight: 400;
+	background-color: #f1f2f4;
+}
+
+.lottery-HomeLatestResult-box-group table td:nth-child(1){
+	width: 30%;
+}
+
+.lottery-HomeLatestResult-box-group table td:nth-child(2){
+	width: 15%;
+}
+
+.lottery-HomeLatestResult-box-group table tr:nth-child(2n){
+	background-color: rgba(241, 242, 244, 0.5);
+}
+
+.lottery-HomeLatestResult-box-group table td{
+	padding: 15px 15px;
+	font-weight: 400;
+	color: #666;
+}
+
+.lottery-HomeLatestResult-box-list{
+	position: relative;
+	background-color: #FFF;
+	height: 442px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+.lottery-HomeLatestResult-all-results{
+	margin-top: 30px;
+}
+
+.lottery-HomeLatestResult-all-results a{
+	color: #999;
+}
+/** ./HomeLatestResult **/

@@ -1,0 +1,62 @@
+/** /HomeNextLottery **/
+.lottery-HomeNextLottery{
+	font-family: roboto;
+	background-color: #f8fcff;
+	min-height: 188px;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.lottery-HomeNextLottery-padding{
+	padding: 33px 0 33px 0;
+}
+
+.lottery-HomeNextLottery-title{
+	color: #333;
+}
+
+.lottery-HomeNextLottery-description{
+	font-size: 14px;
+	color: #999;
+}
+
+.lottery-HomeNextLottery-circles-box{
+	position: relative;
+	top: 8px;
+}
+
+.lottery-HomeNextLottery-circle{
+	background-image: url(./images/clock_circle.png);
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 86px;
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.lottery-HomeNextLottery-button-box{
+	position: relative;
+    float: right;
+    top: 37px;
+}
+
+.lottery-HomeNextLottery-link{
+	margin-right: 25%;
+}
+
+.lottery-HomeNextLottery-circle span{
+	color: #33b5f7;
+	position: relative;
+	top: 2px;
+}
+
+.lottery-HomeNextLottery-line-divider{
+	background-image: url(./images/clock_circle_line_devider.jpg);
+    background-repeat: no-repeat;
+    width: 82px;
+    height: 4px;
+    position: relative;
+    top: 42px;
+    z-index: 100;
+}
+/** ./HomeNextLottery **/

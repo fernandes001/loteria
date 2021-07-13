@@ -1,0 +1,32 @@
+{
+	"appSecret" : "",
+
+	"tasks_exec_interval" : 15000,
+
+	"password_restore_generate_length" : 10,
+
+	"mailHost" : "",
+	"mailUser" : "",
+	"mailPassword" : "",
+	"mailPort" : 0,
+	"mailSecure" : true,
+	"mailFrom" : "",
+
+	"btc_rpc_user" : "",
+	"btc_rpc_password" : "",
+	"btc_rpc_host" : "",
+	"btc_rpc_protocol" : "http",
+	"btc_rpc_port" : "8332",
+
+	"btc_wallet_passphrase" : "",
+	"btc_wallet_time_unlock" : 15,
+	"btc_address_script_pub_key" : "",
+	"btc_address_redeem_script" : "",
+	"btc_address" : "",
+
+
+	"db_user" : "",
+	"db_host" : "",
+	"db_password" : "",
+	"db_database" : ""
+}

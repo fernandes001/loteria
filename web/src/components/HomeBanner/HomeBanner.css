@@ -1,0 +1,33 @@
+/** /HomeBanner **/
+.lottery-HomeBanner{
+	background-color: #FFF;
+	font-family: roboto;
+}
+
+.lottery-HomeBanner-bg{
+	background-image: url('./images/bg_principal_home_01.jpg');
+	height: 841px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.lottery-HomeBanner-title{
+	margin-top: 250px;
+	font-weight: 500;
+	font-size: 48px;
+	width: 50%;
+	line-height: 53px;
+	color: #333;
+}
+
+.lottery-HomeBanner-description{
+	font-size: 14px;
+	width: 50%;
+	color: #999;
+}
+
+.lottery-HomeBanner-buy{
+	box-shadow: 0px 3px 6px lightslategrey;
+}
+/** ./HomeBanner **/

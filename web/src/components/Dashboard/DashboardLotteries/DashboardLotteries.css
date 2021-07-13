@@ -1,0 +1,21 @@
+/** /DashboardLotteries **/
+.lottery-DashboardLotteries{
+	font-family: roboto;
+}
+
+.lottery-DashboardLotteries-title{
+	margin-bottom: 20px;
+}
+
+.lottery-DashboardLotteries-form label, .lottery-DashboardLotteries-form input, .lottery-DashboardLotteries-form button{
+	font-size: 14px;
+}
+
+.lottery-DashboardLotteries-alert{
+	position: fixed;
+	width: 25%;
+	z-index: 100;
+	top: 6px;
+	right: 6px;
+}
+/** ./DashboardLotteries **/

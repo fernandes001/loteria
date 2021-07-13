@@ -1,0 +1,68 @@
+/** /DashboardTicketsReportList **/
+.lottery-DashboardTicketsReportList{
+	font-family: roboto;
+}
+
+/** /filters **/
+.lottery-DashboardTicketsReportList-filters{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #666;
+}
+
+.lottery-DashboardTicketsReportList-filters label{
+	margin-bottom: 0;
+}
+
+.lottery-DashboardTicketsReportList-filters input{
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	bottom: 1px;
+}
+/** ./filters **/
+
+/** /list **/
+.lottery-DashboardTicketsReportList-list{
+	color: #666;
+	font-weight: 300;
+}
+
+.lottery-DashboardTicketsReportList-list-title{
+	color: #666;
+}
+
+.lottery-DashboardTicketsReportList-list-box{
+	padding-top: 15px;
+}
+
+.lottery-DashboardTicketsReportList-list-item{
+	display: flex;
+	align-items: center;
+}
+
+.lottery-DashboardTicketsReportList-list i{
+	font-size: 20px;
+	color: #666;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.lottery-DashboardTicketsReportList-list-title .row div, .lottery-DashboardTicketsReportList-list .row div{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.lottery-DashboardTicketsReportList-list .row:nth-child(odd){
+	background-color: #F8F8F8;
+}
+/** ./list **/
+
+.lottery-DashboardTicketsReportList-alert{
+	position: fixed;
+	width: 25%;
+	z-index: 100;
+	top: 6px;
+	right: 6px;
+}
+/** ./DashboardTicketsReportList **/

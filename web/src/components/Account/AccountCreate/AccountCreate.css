@@ -1,0 +1,52 @@
+/** /AccountCreate **/
+.lottery-AccountCreate{
+	font-family: roboto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.lottery-AccountCreate-box{
+	background-color: #FFF;
+	box-shadow: 0px 0px 4px 1px #ccc;
+    padding: 26px;
+    border-radius: 4px;
+}
+
+.lottery-AccountCreate-login-account{
+	text-align: center;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.lottery-AccountCreate-login-account a{
+	color: #666;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+
+.lottery-AccountCreate-box input{
+	font-size: 14px;
+}
+
+.lottery-AccountCreate-box input::placeholder{
+	color: #CCC;
+}
+
+.lottery-AccountCreate-msg{
+	font-weight: 400;
+	height: 25px;	
+	text-align: center;
+}
+
+.lottery-AccountCreate-bt{
+	margin-top: 10px;
+}
+
+.lottery-AccountCreate-alert{
+	position: fixed;
+	width: 25%;
+	z-index: 100;
+	top: 6px;
+	right: 6px;
+}
+/** ./AccountCreate **/

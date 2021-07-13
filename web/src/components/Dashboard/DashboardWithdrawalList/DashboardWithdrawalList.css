@@ -1,0 +1,85 @@
+/** /DashboardWithdrawalList **/
+.lottery-DashboardWithdrawalList{
+	font-family: roboto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.lottery-DashboardWithdrawalList-bt-search{
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 9px 20px 9px 20px;
+	cursor: pointer;
+	display: inline-block;
+    text-align: center;
+}
+
+.lottery-DashboardWithdrawalList-list-box{
+	padding-top: 30px;
+}
+
+.lottery-DashboardWithdrawalList-title{
+	padding-top: 15px;
+	padding-bottom: 20px;
+	color: #666;
+}
+
+.lottery-DashboardWithdrawalList-filters{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #666;
+}
+
+.lottery-DashboardWithdrawalList-filters label{
+	margin-bottom: 0;
+}
+
+.lottery-DashboardWithdrawalList-filters input{
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	bottom: 1px;
+}
+
+.lottery-DashboardWithdrawalList-menu{
+	text-align: right;
+}
+
+.lottery-DashboardWithdrawalList-menu a{
+	color: #33b5f7;
+}
+
+.lottery-DashboardWithdrawalList-box{
+	padding-bottom: 15px;
+}
+
+.lottery-DashboardWithdrawalList-list-title{
+	color: #666;
+}
+
+.lottery-DashboardWithdrawalList-list-item{
+	display: flex;
+	align-items: center;
+}
+
+.lottery-DashboardWithdrawalList-list{
+	color: #666;
+	font-weight: 300;
+}
+
+.lottery-DashboardWithdrawalList-list i{
+	font-size: 20px;
+	color: #666;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.lottery-DashboardWithdrawalList-list-title .row div, .lottery-DashboardWithdrawalList-list .row div{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.lottery-DashboardWithdrawalList-list .row:nth-child(odd){
+	background-color: #F8F8F8;
+}
+/** ./DashboardWithdrawalList **/

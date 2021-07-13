@@ -1,0 +1,54 @@
+version: '2'
+services: 
+
+  btccore:
+    build: ./btccore
+    image: btccore
+    command: npm start
+    environment:
+      - PORT=3002
+    ports:
+      - 3002:3002
+      - 8332:8332
+    volumes:
+      - ./btccore:/var/www/lottery_btccore
+
+  api: 
+    build: ./api
+    image: api
+    command: npm start
+    environment:
+      - PORT=3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ./api:/var/www/lottery_api
+    depends_on:
+      - db
+      - btccore
+
+  web: 
+    build: ./web
+    image: web
+    command: npm start
+    environment: 
+      - PORT=3001
+    ports:
+      - 3001:3001
+    volumes:
+      - ./web:/var/www/lottery_web
+    depends_on:
+      - api
+
+  db: 
+    image: mysql:5.7
+    container_name: db-mysql
+    ports:
+      - "13306:3306"
+    volumes:
+      - ./docker/db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=project
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password

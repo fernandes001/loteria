@@ -1,0 +1,58 @@
+/** /Results **/
+.lottery-Results{
+	font-family: roboto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.lottery-Results-circle{
+	cursor: pointer;
+	border-radius: 25px;
+    height: 40px;
+    width: 40px;
+    margin-right: 14px;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+}
+
+.lottery-Results-box{
+	background-color: #FFF;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.lottery-Results-box .row{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.lottery-Results-box .row:nth-child(odd){
+	background-color: #F8F8F8;
+}
+
+.lottery-Results-box img{
+	margin-top: 2px;
+}
+
+.lottery-Results-box-title{
+	margin-top: 17px;
+	display: block;
+}
+
+.lottery-Results-box-prize{
+	text-align: center;
+	display: block;
+	margin-top: 7px;
+}
+
+.lottery-Results-box-date{
+	text-align: center;
+	display: block;
+	color: #999;
+	font-size: 14px;
+}
+
+.lottery-Results-box button{
+	margin-top: 10px;
+}
+/** ./Results **/

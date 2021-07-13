@@ -1,0 +1,52 @@
+/** /MiddleMenuMobile **/
+.lottery-MiddleMenuMobile{
+    font-family: roboto;
+	margin-top: 10px;
+}
+
+.lottery-MiddleMenuMobile button{
+	background-color: #33b5f7;
+    color: #FFF;
+    border: none;
+    font-size: 24px;
+    padding: 5px 14px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+.lottery-MiddleMenuMobile button i{
+	position: relative;
+	top: 1px;
+}
+
+.lottery-MiddleMenuMobile-dropdown{
+	visibility: hidden;
+	position: absolute;
+    z-index: 100;
+    background-color: #FFF;
+    border-bottom: 2px solid #ebebeb;
+    margin-top: 10px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s linear, visibility 0.3s linear;
+}
+
+.lottery-MiddleMenuMobile-dropdown ul{
+	list-style: none;
+	padding-inline-start: 0;
+}
+
+.lottery-MiddleMenuMobile-dropdown ul li{
+	padding: 10px 0 10px 0;
+}
+
+.lottery-MiddleMenuMobile-dropdown ul li a{
+	color: #666;
+}
+
+.lottery-MiddleMenuMobile-dropdown-on{
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+/** ./MiddleMenuMobile **/

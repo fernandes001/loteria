@@ -1,0 +1,77 @@
+/** /Footer **/
+.lottery-Footer{
+	font-family: roboto;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	height: 530px;
+	background-image: url('./images/bg_footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 14px;
+}
+
+.lottery-Footer-h-box-1{
+	height: 60px;
+	margin-top: 80px;
+}
+
+.lottery-Footer-h-box-2{
+	margin-top: 40px;
+}
+		
+.lottery-Footer-title{
+	font-weight: 700;
+}
+
+.lottery-Footer-description{
+	color: #666;
+}
+
+.lottery-Footer-counter{
+	font-weight: 700;
+	font-size: 20px;
+	color: #33b5f7;
+}
+
+.lottery-Footer-newsletter input{
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.lottery-Footer-newsletter button{
+	border-radius: 0 10px 10px 0px;
+	background-color: #33b5f7;
+    padding: 0px 40px;
+    color: #FFF;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.3s linear;
+}
+
+.lottery-Footer-newsletter button:hover{
+	opacity: 0.8;
+}
+	
+.lottery-Footer-links{
+	margin-top: 15px;
+	font-weight: 300;
+}
+
+.lottery-Footer-links ul{
+	list-style: none;
+	padding-inline-start: 0;
+}
+		
+.lottery-Footer-links ul li a{
+	color: #666;
+}
+/** ./Footer **/
+
+@media only screen and (max-width: 768px) {
+	.lottery-Footer-h-box-1{
+		margin-top: 30px;
+	}
+}

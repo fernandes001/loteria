@@ -1,0 +1,81 @@
+/** /DashboardUsersList **/
+.lottery-DashboardUsersList{
+	font-family: roboto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.lottery-DashboardUsersList-bt-search{
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 9px 20px 9px 20px;
+	cursor: pointer;
+	display: inline-block;
+    text-align: center;
+}
+
+.lottery-DashboardUsersList-list-box{
+	padding-top: 30px;
+}
+
+.lottery-DashboardUsersList-title{
+	padding-top: 15px;
+	padding-bottom: 20px;
+	color: #666;
+}
+
+.lottery-DashboardUsersList-filters{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #666;
+}
+
+.lottery-DashboardUsersList-filters label{
+	margin-bottom: 0;
+}
+
+.lottery-DashboardUsersList-filters input{
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	bottom: 1px;
+}
+
+.lottery-DashboardUsersList-box{
+	padding-bottom: 15px;
+}
+
+.lottery-DashboardUsersList-list-title{
+	color: #666;
+}
+
+.lottery-DashboardUsersList-list{
+	color: #666;
+	font-weight: 300;
+}
+
+.lottery-DashboardUsersList-list div:nth-child(4) span{
+	margin-right: 5px;
+}
+
+.lottery-DashboardUsersList-list-item{
+	display: flex;
+	align-items: center;
+}
+
+.lottery-DashboardUsersList-list i{
+	font-size: 20px;
+	color: #666;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.lottery-DashboardUsersList-list-title .row div, .lottery-DashboardUsersList-list .row div{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.lottery-DashboardUsersList-list .row:nth-child(odd){
+	background-color: #F8F8F8;
+}
+/** ./DashboardUsersList **/

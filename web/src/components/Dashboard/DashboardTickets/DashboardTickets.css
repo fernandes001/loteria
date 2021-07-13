@@ -1,0 +1,50 @@
+/** /DashboardTickets **/
+.lottery-DashboardTickets{
+	font-family: roboto;
+}
+
+.lottery-DashboardTickets-number{
+	border-radius: 23px;
+    background-color: #FFF;
+    padding: 7px;
+    width: 40px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.lottery-DashboardTickets-number-selected{
+	border-radius: 23px;
+    background-color: #33b5f7;
+    padding: 7px;
+    width: 40px;
+    border: 1px solid #33b5f7;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.lottery-DashboardTickets-card{
+	border: 2px solid #f1f1f1;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.lottery-DashboardTickets-selected-numbers{
+    background-color: #33b5f7;
+    color: #FFF;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 8px 0;
+}
+
+.lottery-DashboardTickets-form label, .lottery-DashboardTickets-form input, .lottery-DashboardTickets-form button{
+	font-size: 14px;
+}
+
+.lottery-DashboardTickets-alert{
+	position: fixed;
+	width: 25%;
+	z-index: 100;
+	top: 6px;
+	right: 6px;
+}
+/** ./DashboardTickets **/

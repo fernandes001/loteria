@@ -1,0 +1,65 @@
+/** /MiddleMenuDesktop **/
+.lottery-MiddleMenuDesktop{
+	background-color: #FFF;
+	font-family: roboto;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+.lottery-MiddleMenuDesktop-active{
+	border-bottom: 3px solid #33b5f7;
+	color: #33b5f7;
+	display: block;
+}
+
+.lottery-MiddleMenuDesktop-account{
+	position: relative;
+	box-shadow: 0px 3px 6px lightslategrey;
+	float: right;
+	top: 4px;
+}
+
+.lottery-MiddleMenuDesktop-links{
+	margin-top: 15px;
+	text-align: right;
+}
+
+.lottery-MiddleMenuDesktop-links ul{
+	text-transform: uppercase;
+	font-size: 16px;
+	list-style: none;
+	padding-inline-start: 0;
+}
+
+.lottery-MiddleMenuDesktop-links ul li{
+	display: inline-block;
+	padding: 0 15px 0 15px;	
+}
+
+.lottery-MiddleMenuDesktop-links ul li a{
+	color: #666;
+	font-weight: 700;
+	text-decoration: none;
+	transition: color 0.3s linear;
+}
+
+.lottery-MiddleMenuDesktop-links ul li a:hover{
+	color: #999;
+}
+/** ./MiddleMenuDesktop **/
+
+@media only screen and (min-width: 992px){
+	.lottery-MiddleMenuMobile{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 992px){
+	.lottery-MiddleMenuDesktop{
+		display: none;
+	}
+
+	.lottery-MiddleMenuMobile{
+		display: block;
+	}
+}

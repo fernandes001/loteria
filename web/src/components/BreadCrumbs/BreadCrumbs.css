@@ -1,0 +1,37 @@
+/** /BreadCrumbs **/
+.lottery-BreadCrumbs{
+	background-color: #FFF;
+	font-family: roboto;
+	padding-top: 15px;
+	height: 62px;
+}
+
+.lottery-BreadCrumbs-breadcrumbs-title{
+	margin-top: 40px;
+}
+
+.lottery-BreadCrumbs-line{
+	box-shadow: 0px 4px 2px -2px #ccc;
+}
+
+.lottery-BreadCrumbs-breadcrumbs ul{
+	list-style: none;
+	padding-inline-start: 0;
+	margin-bottom: 0;
+}
+
+.lottery-BreadCrumbs-breadcrumbs ul li{
+	display: inline-block;
+	padding: 10px 0;
+	color: #999;
+}
+
+.lottery-BreadCrumbs-breadcrumbs ul li a{
+	list-style: none;
+	color: #666;
+}
+
+.lottery-BreadCrumbs-breadcrumbs ul li a:hover{
+	list-style: underline;
+}
+/** ./BreadCrumbs **/

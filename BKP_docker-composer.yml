@@ -1,0 +1,26 @@
+version: '2'
+services: 
+  api: 
+    build: ./api
+    image: lottery
+    command: npm start
+    environment:
+      - PORT=3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ./api:/var/www
+    depends_on:
+      - db
+  db: 
+    image: mysql:5.7
+    container_name: db-mysql
+    ports:
+      - "13306:3306"
+    volumes:
+      - ./docker/db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=project
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password

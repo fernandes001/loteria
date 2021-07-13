@@ -1,0 +1,41 @@
+/** /lottery-Contact **/
+.lottery-Contact{
+	font-family: roboto;
+	margin-top: 209px;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	height: 530px;
+	background-image: url('./images/map_contact.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.lottery-Contact-box-contact{
+    box-shadow: 0px 0px 4px 1px #ccc;
+    border-radius: 4px;
+    background-color: #FFF;
+    height: 480px;
+    bottom: 180px;
+    position: relative;
+}
+
+.lottery-Contact-white-box{
+	padding: 26px;
+	height: 480px;
+	color: #666;
+}
+
+.lottery-Contact-black-box{
+	color: #FFF;
+	padding: 26px;
+    background-color: #333745;
+    height: 480px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.lottery-Contact-black-box hr{
+	background-color: #FFF;
+}
+/** ./lottery-Contact **/

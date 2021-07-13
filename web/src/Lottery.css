@@ -1,0 +1,59 @@
+/** /Lottery **/
+.lottery{
+	background-color: #EEF2F5;
+}
+
+.lottery-color-white{color: #FFF !important;}
+.lottery-color-orange{color: #F7931A !important;}
+.lottery-color-blue{color: #33b5f7 !important;}
+.lottery-color-red{color: #FF0000 !important;}
+
+.lottery-bg-color-white{background-color: #FFF}
+
+.lottery-bg-none{
+	background-color: #F1F1F1;
+	border: 1px solid #CCC;
+	color: #666;
+}
+
+.lottery-bg-color-gray{
+	background-color: #F1F1F1;
+}
+
+.lottery-separator-top{
+	background-color: #FFF;
+	padding-top: 30px;
+}
+
+.lottery-bg-none:hover{
+	color: #666;
+	text-decoration: none;
+}
+
+.lottery-bg-blue{
+	background-color: #33b5f7;
+	border: 0;
+	color: #FFF !important;
+}
+
+.lottery-bg-blue:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.lottery-bt-rounded{
+	font-size: 13px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 12px 20px 12px 20px;
+	cursor: pointer;
+	opacity: 1;
+	transition: opacity 0.3s linear;
+	display: inline-block;
+    text-align: center;
+}
+
+.lottery-bt-rounded:hover{
+	opacity: 0.8;
+}
+/** ./Lottery **/

@@ -1,0 +1,62 @@
+/** /TopMenu **/
+.lottery-TopMenu{
+	background-color: #FFF;
+	font-family: roboto;
+	height: 50px;
+	border-bottom: 2px solid #ebebeb;
+	font-size: 14px;
+}
+
+.lottery-TopMenu a{
+	color: #666;
+}
+
+.lottery-TopMenu-language-box{
+	margin-top: 13px;
+}
+	
+.lottery-TopMenu-chart-box{
+	margin-top: 10px;
+}
+
+.lottery-TopMenu-chart-box span{
+	position: relative;
+	top: 3px;
+}
+
+.lottery-TopMenu-language{
+	width: 50px;
+	cursor: pointer;
+	color: #666;
+}
+
+.lottery-TopMenu-language ul{
+	padding: 5px;
+}
+
+.lottery-TopMenu-language ul button{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    color: #666;
+}
+
+.lottery-TopMenu-language ul li{
+	list-style: none;
+}
+
+.lottery-TopMenu-language-on{
+	margin-top: 4px;
+	background-color: #FFF;
+	position: relative;
+	z-index: 10;
+	display: block;
+}
+
+.lottery-TopMenu-language-off{
+	display: none;
+}
+/** ./TopMenu **/

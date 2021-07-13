@@ -1,0 +1,17 @@
+/** /DashboardWithdrawal **/
+.lottery-DashboardWithdrawal{
+	font-family: roboto;
+}
+
+.lottery-DashboardWithdrawal-minimo{
+	font-size: 14px;
+}
+
+.lottery-DashboardWithdrawal-alert{
+	position: fixed;
+	width: 25%;
+	z-index: 100;
+	top: 6px;
+	right: 6px;
+}
+/** ./DashboardWithdrawal **/
